@@ -1,0 +1,39 @@
+.p{
+    width: 30%;
+    height: 40vh;
+    margin: 20px 10px;
+    border: 2px solid rgb(231, 227, 227);
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+    transition: transform 0.5s;
+}
+.p-browser{
+    height: 20px;
+    background-color: rgb(228, 227, 227);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 2;
+}
+.p-circle{
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0px 3px;
+}
+.p:hover{
+    transform: scale(1.1);
+}
+.p-title{
+    height: 20px;
+    z-index: 3;
+}
+.p-img{
+    width: 100%;
+    object-fit: cover;
+    transition: all 6s ease;
+}
+.p:hover .p-img{
+    transform: translateY(-30%);
+}

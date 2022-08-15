@@ -1,7 +1,5 @@
 import React from 'react'
 import "../about/about.css"
-import Clg from "../../img/aot-logo.jpg"
-import { Star } from '@material-ui/icons'
 
 const About = () => {
     return (

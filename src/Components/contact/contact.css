@@ -1,0 +1,70 @@
+.c{
+    height: 100vh;
+    position: relative;
+}
+.c-bg{
+    width: 20px;
+    height: 100%;
+    background-color: #59b256;
+    position: absolute;
+}
+.c-wrapper{
+    display: flex;
+}
+.c-left{
+    flex:1;
+    margin-left: 30px;
+}
+.c-title{
+    font-style: 300px;
+    padding-left: 30px;
+    margin-top: 30px;
+    font-weight: 400;
+}
+.c-right{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: ce;
+    align-items: center;
+}
+.info{
+    margin-top: 30px;
+}
+.info-item{
+    display: flex;
+    margin: 20px 0px;
+}
+.c-desc{
+    margin-top: 30px;
+}
+.c-text{
+    padding-left: 20px;
+    font-weight: 300;
+    font-size: 17px;
+}
+form{
+    margin-top: 20px;
+}
+input{
+    width: 60%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid grey;
+    margin: 10px 0px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+textarea{
+    width: 90%;
+    margin: 10px 0px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+button{
+    width: 93%;
+    border: none;
+    padding: 5px;
+    background-color: #59b256;
+    cursor: pointer;
+}
