@@ -14,6 +14,9 @@
 .c-left{
     flex:1;
     margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .c-title{
     font-style: 300px;
@@ -67,4 +70,13 @@ button{
     padding: 5px;
     background-color: #59b256;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.c-sent{
+    font-size: 15px;
+    font-weight: 300;
+    padding-left: 20px;
 }

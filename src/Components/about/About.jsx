@@ -1,5 +1,6 @@
 import React from 'react'
 import "../about/about.css"
+import Me from "../../img/Me.jpeg"
 
 const About = () => {
     return (
@@ -8,7 +9,7 @@ const About = () => {
                 <div className="a-card bg"></div>
                 <div className="a-card me">
                     <img
-                        src="https://images.pexels.com/photos/3585047/pexels-photo-3585047.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                        src={Me}
                         alt=""
                         className="a-img"
                     />
