@@ -19,7 +19,7 @@ const Intro = () => {
                         </div>
                     </div>
                     <p className="desc">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus magnam ipsa itaque doloremque modi dolores animi aut beatae harum rerum quam minus maiores libero nemo, quae, voluptatem exercitationem molestias culpa? Neque, ad! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus optio vitae similique suscipit saepe architecto delectus blanditiis nesciunt, quidem animi.
+                        Lorem ipsu dolor sit amet consectetur adipisicing elit. Natus magnam ipsa itaque doloremque modi dolores animi aut beatae harum rerum quam minus maiores libero nemo, quae, voluptatem exercitationem molestias culpa? Neque, ad! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus optio vitae similique suscipit saepe architecto delectus blanditiis nesciunt, quidem animi.
                     </p>
                 </div>
             </div>
