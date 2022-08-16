@@ -37,3 +37,11 @@
 .p:hover .p-img{
     transform: translateY(-30%);
 }
+@media screen and (max-width: 480px){
+    .a{
+        flex-direction: column;
+    }
+    .p{
+        width: 90%;
+    }
+}

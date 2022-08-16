@@ -3,14 +3,14 @@
     height: 100vh;
 }
 .i-left{
-    flex: 3;
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
 }
 .i-right{
-    flex: 2;
+    flex: 1;
     display: flex;
     justify-content:right;
     position: relative;
@@ -85,4 +85,21 @@
     height: 30px;
     position: absolute;
     bottom: 20px;
+}
+@media screen and (max-width: 480px){
+    .i{
+        flex-direction: column;
+    }
+    .i-right{
+        display: none;
+    }
+    .i-left-wrapper{
+        padding-top: 10px;
+    }
+    .i-name {
+        font-size: 45px;
+    }
+    .desc{
+        padding-top: 30px;
+    }
 }

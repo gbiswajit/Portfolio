@@ -73,3 +73,39 @@
 .ach-subtext{
     font-weight: 300;
 }
+@media screen and (max-width: 480px){
+  .a{
+      flex-direction: column;
+      padding: 5px 5px;
+      height: 180vh;
+  }
+  .ach-text{
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .ach-subtext{
+    font-size: 15px;
+    font-weight: 200;
+  }
+  .ach{
+    padding: 10px 0px;
+    margin-bottom: 20px;
+  }
+  .a-right{
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+  .a-left{
+    height: 100vh;
+    width: 100vw;
+  }
+  .a-card.me{
+    padding: 5px 5px;
+  }
+  .a-right{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
