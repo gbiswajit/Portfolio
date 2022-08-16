@@ -11,8 +11,9 @@ const Toggle = () => {
     };
     return (
         <div className='t'>
-            <WbSunnySharp style={{ color: "orange" }} />
+            
             <Brightness2Sharp style={{ color: "black" }} />
+            <WbSunnySharp style={{ color: "orange" }} />
             <div className="t-btn" onClick={handleClick}
                 style={{ left: theme.state.darkMode ? 0 : 25 }}></div>
         </div>

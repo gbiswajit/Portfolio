@@ -9,6 +9,9 @@
 .pl-texts{
     width: 50%;
 }
+.pl-title{
+    font-weight: 400;
+}
 .pl-list{
     display: flex;
     flex-wrap: wrap;
