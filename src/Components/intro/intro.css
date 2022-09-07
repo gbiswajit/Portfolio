@@ -12,8 +12,8 @@
 .i-right{
     flex: 1;
     display: flex;
-    justify-content:right;
-    position: relative;
+    justify-content: center;
+    align-items: center;
 }
 .i-left-wrapper{
     padding: 50px;
@@ -71,14 +71,13 @@
     position: absolute;
     top:0;
     right:0;
+    display: none;
 }
 .i-img{
-    height: 90%;
     object-fit: cover;
+    height: 80vh;
     z-index: 2;
-    position: absolute;
-    right: 0;
-    bottom: 0;
+    border-radius: 50%;
 }
 .i-scroll{
     width: 30px;
