@@ -42,7 +42,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="c-right">
-                    <p className="c-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis, eveniet quam rem fuga aut non ullam quos ea perspiciatis!</p>
+                    <p className="c-desc">Contack me for any queries or opinion  by</p>
                     <form ref={formRef} onSubmit={handleSubmit}>
                         <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Name" name="user_name" />
                         <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Subject" name="user_subject" />

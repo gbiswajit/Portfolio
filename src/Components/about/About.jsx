@@ -17,8 +17,8 @@ const About = () => {
             </div>
             <div className="a-right">
                 <h1 className="a-title">About Me</h1>
-                <p className="a-sub">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <p className="a-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia enim, facere sed earum dolorum praesentium similique numquam officiis minus alias fuga reiciendis quam perferendis quia? Hic sit quisquam voluptatum expedita et placeat.</p>
+                <p className="a-sub">|| An Aspiring Full Stack Developer ||</p>
+                <p className="a-desc">I am Biswajit Ghosh. I am from Barrackpore. I have done my schooling from Barrackpore A. B. Model High School and then pursued B.Tech in Academy of Technology. I love development and besides that I love to play cricket and chess. </p>
                 <div className="achievements">
                 <div className="ach">
                         <img src="https://www.freeiconspng.com/thumbs/graduation-cap/high-resolution-graduation-cap-png-icon-17.png" alt="" className="ach-img" />

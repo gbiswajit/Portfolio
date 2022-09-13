@@ -19,7 +19,7 @@ const Intro = () => {
                         </div>
                     </div>
                     <p className="desc">
-                        Lorem ipsu dolor sit amet consectetur adipisicing elit. Natus magnam ipsa itaque doloremque modi dolores animi aut beatae harum rerum quam minus maiores libero nemo, quae, voluptatem exercitationem molestias culpa? Neque, ad! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus optio vitae similique suscipit saepe architecto delectus blanditiis nesciunt, quidem animi.
+                    Hello,<br/>I am Biswajit Ghosh. I am from Barrackpore. I have done my schooling from Barrackpore A. B. Model High School and then pursued B.Tech in Academy of Technology. I love development and besides that I love to play cricket and chess.
                     </p>
                 </div>
             </div>
